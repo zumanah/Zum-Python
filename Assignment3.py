@@ -1,8 +1,3 @@
-##########################
-# Leap year calculation
-# Author: Zumanah
-# Date : July,18 ,2015
-###########################
 def main():
     y = eval(input("Enter year: "))
     if (y >= 1900 and y <= 2100):
