@@ -1,6 +1,7 @@
 # part 2
 
-def main():
+y = eval(input("Enter year between 1900 and 2100: "))
+while (y< 1900 and y> 2100):
     y = eval(input("Enter year between 1900 and 2100: "))
     if (y >= 1900 and y <= 2100):
         z = y//100
@@ -31,4 +32,3 @@ def main():
             print("Enter a valid month.")  
     else:
         print("Try again.")
-main()

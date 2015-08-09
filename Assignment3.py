@@ -1,3 +1,5 @@
+# part 1
+
 def main():
     y = eval(input("Enter year: "))
     if (y >= 1900 and y <= 2100):
